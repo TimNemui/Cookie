@@ -1,0 +1,102 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+  position: relative;
+  display: inline-block;
+}
+
+html  {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header  {
+  width: 100%;
+  padding: 1em;
+  background-color: lightblue;
+  color: white;
+  font-weight: 700;
+}
+
+article {
+  background-color: white;
+  margin: 10px;
+  padding: 2px 5px 2px 5px;
+}
+
+aside {
+  font-size: 20px;
+  text-align: right;
+}
+div {
+}
+a {
+  color: red;
+}
+
+footer  {
+  background-color: lightblue;
+  color: white;
+  padding: 1em;
+  font-weight: 200;
+  font-style: italic;
+}
+
+@media (min-width: 401px)  {
+
+    .container  {
+      width: 100%;
+    }
+
+    article {
+      position: relative;
+      width: 90%;
+    }
+
+    aside {
+      position: absolute;
+      width: 30%;
+      top: 120px;
+      right: 20px;
+    }
+
+}
+
+@media (min-width: 801px)  {
+
+    .container  {
+      position: absolute;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .one  {
+      position: absolute;
+      left: -20px;
+      width: 50%;
+    }
+
+    .two  {
+      position: absolute;
+      right: 10em;
+      width: 30%;
+    }
+
+    article {
+      width: 100%;
+    }
+
+    aside {
+      position: absolute;
+      width: 20%;
+      top: 120px;
+      right: 10em;
+    }
+
+}
